@@ -54,10 +54,11 @@ System generates automated reports.
 Authorities update status → citizens track progress via map.
 Plan-C/
 │── frontend/         # React.js client
-│── backend/          # Django/Node.js backend
+│── backend/          # Django
 │── ml_models/        # Image & NLP models
 │── docs/             # Reports, DFDs, Diagrams
-│── README.md
+
+
 👨‍💻 Authors
 
 Ameya Arul
