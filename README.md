@@ -1,3 +1,73 @@
+
+Plan C is a citizen-driven urban planning support platform that enables residents of Kozhikode to report civic issues through a social-media–style interface. It bridges the gap between public voices and city authorities by combining AI-powered analysis and transparent progress tracking.
+
+Users can:
+
+Report urban issues (with descriptions, images, and location).
+
+Comment, upvote, and discuss community concerns.
+
+Track the progress of complaints on a real-time map.
+
+View AI-assisted classifications, prioritizations, and official updates.
+
+Authorities can:
+
+Access AI-generated reports of high-priority issues.
+
+Monitor complaints through structured dashboards.
+
+Receive contextual suggestions based on existing government plans.
+
+✨ Features
+
+🔐 Email-based authentication for secure citizen participation.
+
+📝 Post civic issues with text, images, and geolocation.
+
+👍 Community engagement with comments and upvotes.
+
+🤖 AI-powered analysis using:
+
+CNN (e.g., MobileNet, YOLOv5) for image classification.
+
+BERT-based NLP models for complaint text analysis.
+
+LLMs for contextual prioritization and solution suggestions.
+
+📊 Automated report generation for planners.
+
+🗺️ Map visualization of issues and progress (reported → in-progress → resolved).
+
+📈 Transparent dashboard for tracking government action.
+
+📊 Use-Case Flow
+
+Citizen registers → logs in → submits issue (text + image + location).
+
+Community interacts (upvotes & comments).
+
+AI module classifies and prioritizes issues.
+
+System generates automated reports.
+
+Authorities update status → citizens track progress via map.
+Plan-C/
+│── frontend/         # React.js client
+│── backend/          # Django/Node.js backend
+│── ml_models/        # Image & NLP models
+│── docs/             # Reports, DFDs, Diagrams
+│── README.md
+👨‍💻 Authors
+
+Ameya Arul
+
+Rifana Sherin
+
+Sania K S
+
+Shreya Baiju
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,3 +139,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 "# PlanC" 
+
