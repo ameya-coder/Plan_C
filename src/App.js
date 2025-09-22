@@ -67,8 +67,8 @@ export default function App() {
       {/* Navbar */}
       <nav className="bg-[#384959] text-white px-8 py-4 flex items-center justify-between shadow">
         <div className="flex items-center gap-3">
-          <img src="/logo.jpg" alt="Plan C Logo" className="h-8 w-8" />
-          <span className="font-bold tracking-wide">PLAN C</span>
+                    <img src="/logoo.png" alt="Plan C Logo" className="h-15 w-50" />
+          <span className="font-bold tracking-wide"></span>
         </div>
         <div className="flex gap-6 items-center">
           <button onClick={() => setPage("home")} className="hover:text-[#F4FFFF]">HOME</button>
